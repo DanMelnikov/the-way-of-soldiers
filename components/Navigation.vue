@@ -11,12 +11,9 @@
     >
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="main-navigation__title">
+          <v-list-item-title>
             Путь солдат
           </v-list-item-title>
-          <v-list-item-subtitle class="main-navigation__subtitle">
-            subtext
-          </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -47,6 +44,7 @@
 
 <script>
 export default {
+  name: 'Navigation',
   data () {
     return {
       items: [

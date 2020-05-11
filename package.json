@@ -1,22 +1,37 @@
 {
   "name": "the-way-of-soldiers",
   "version": "1.0.0",
-  "description": "My flawless Nuxt.js project",
-  "author": "dan_melnikov",
-  "private": true,
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "dev": "nuxt --open",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "node app.js",
+    "dev": "nodemon ./server --open",
+    "build": "nuxt build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanMelnikov/the-way-of-soldiers.git"
+  },
+  "keywords": [
+    "mevn"
+  ],
+  "author": "Danila Melnikov <dantm1994s@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanMelnikov/the-way-of-soldiers/issues"
+  },
+  "homepage": "https://github.com/DanMelnikov/the-way-of-soldiers#readme",
   "dependencies": {
     "@mdi/font": "^5.1.45",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.0",
     "less": "^3.11.1",
-    "less-loader": "^5.0.0"
+    "less-loader": "^5.0.0",
+    "nodemon": "^2.0.3"
   }
 }

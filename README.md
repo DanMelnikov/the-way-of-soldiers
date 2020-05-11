@@ -1,6 +1,6 @@
-# the-way-of-soldiers
+# client
 
-> My flawless Nuxt.js project
+> the frontend part
 
 ## Build Setup
 

@@ -1,6 +1,6 @@
 
-export default {
-  mode: 'universal',
+module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
